@@ -92,7 +92,7 @@ const sprite = () => {
     .pipe(svgstore({ inlineSvg: true }))
     .pipe(rename('sprite.svg'))
     .pipe(gulp.dest('build/img/'))
-    .pipe(gulp.dest('source/img/'))
+    .pipe(gulp.dest('source/img/')) //для обновления нужна удалять файл вручную
 }
 
 // Copy
@@ -135,7 +135,6 @@ const reload = (done) => {
 const watcher = () => {
   gulp.watch('source/less/**/*.less', gulp.series(styles));
   gulp.watch('source/js/scripts.js', gulp.series(scripts));
-  gulp.watch('source/img/**/*', gulp.series(svg, reload));
   gulp.watch('source/*.html', gulp.series(html, reload));
 }
 
