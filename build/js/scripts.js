@@ -1,1 +1,0 @@
-let nav=document.querySelector(".navigation"),navToggle=document.querySelector(".navigation__toggle");nav.classList.remove("navigation--nojs"),navToggle.addEventListener("click",(function(){nav.classList.contains("navigation--open")?nav.classList.remove("navigation--open"):nav.classList.add("navigation--open")}));
