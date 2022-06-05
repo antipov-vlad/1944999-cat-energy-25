@@ -1,5 +1,9 @@
-# Личный проект «Кэт энерджи» 
-Ссылка на сайт:https://richvlad.github.io/1944999-cat-energy-25/source/
+# Личный проект «Кэт энерджи» [PRESS-LINK-SITE](https://richvlad.github.io/1944999-cat-energy-25/source/)
+<div id="header" align="center">
+  <a url="https://mail.yandex.ru/#inbox">
+   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  </a>
+</div>
 
 * Студент: [Владислав Антипов](https://up.htmlacademy.ru/adaptive/25/user/1944999).
 * Наставник:[Владислав Доровлев](https://htmlacademy.ru/profile/dorovlev).
