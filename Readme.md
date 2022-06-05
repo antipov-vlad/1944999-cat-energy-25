@@ -3,6 +3,17 @@
   <a href="https://yandex.ru/">
    <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
   </a>
+  </div>
+  <div align="center">
+    <a href="https://wapp.click/79244129318">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/ alt="WhatsApp">
+  </a>
+  <a href="https://t.me/Vladislav07770">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
+  </a>
+  <a href="mailto:vlad@antipovi.ru">
+    <img src="https://img.shields.io/badge/vlad%40antipovi.ru-%40mail-green" alt="Mail"/>
+  </a>
 </div>
 
 * Студент: [Владислав Антипов](https://up.htmlacademy.ru/adaptive/25/user/1944999).
