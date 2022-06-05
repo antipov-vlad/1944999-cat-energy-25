@@ -28,6 +28,7 @@ export const styles = () => { //name
     // 3. source/css
     .pipe(rename('style.min.css'))
     .pipe(gulp.dest('build/css', { sourcemaps: '.' }))
+    .pipe(gulp.dest('source/css'))
     .pipe(browser.stream());
 }
 
@@ -91,6 +92,7 @@ const sprite = () => {
     .pipe(svgstore({ inlineSvg: true }))
     .pipe(rename('sprite.svg'))
     .pipe(gulp.dest('build/img/'))
+    .pipe(gulp.dest('source/img/'))
 }
 
 // Copy
@@ -112,7 +114,7 @@ const clean = () => {
 const server = (done) => {
   browser.init({
     server: {
-      baseDir: 'build'
+      baseDir: 'source'
     },
     cors: true,
     notify: false,
@@ -133,6 +135,7 @@ const reload = (done) => {
 const watcher = () => {
   gulp.watch('source/less/**/*.less', gulp.series(styles));
   gulp.watch('source/js/scripts.js', gulp.series(scripts));
+  gulp.watch('source/img/**/*', gulp.series(svg, reload));
   gulp.watch('source/*.html', gulp.series(html, reload));
 }
 
